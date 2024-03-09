@@ -1,0 +1,41 @@
+<header>
+<h1>Student Room Allocation Report</h1>
+    <form class="filter-form">
+      <label for="buildingFilter">Filter by Building:</label>
+      <select id="buildingFilter">
+        <option value="">All</option>
+        <option value="Building A">Building A</option>
+        <option value="Building B">Building B</option>
+        <option value="Building C">Building C</option>
+      </select>
+      <label for="dateFilter">Filter by Date:</label>
+      <input type="date" id="dateFilter">
+      <button type="submit">Filter</button>
+    </form>
+  </header>
+
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>Roll Number</th>
+          <th>Student Email ID</th>
+          <th>Building Name</th>
+          <th>Room Number</th>
+          <th>Allocated Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>12345</td>
+          <td>john@example.com</td>
+          <td>Building A</td>
+          <td>101</td>
+          <td>2024-03-10</td>
+        </tr>
+        <!-- Add more rows for student room allocations -->
+      </tbody>
+    </table>
+  </main>
